@@ -27,6 +27,13 @@ class Mellat extends PortAbstract implements PortInterface
 
 		return $this;
 	}
+    public function setCustom($user_id, $order_id) {
+
+        $this->user_id = $user_id;
+        $this->order_id = $order_id;
+
+        return $this;
+    }
 
 	/**
 	 * {@inheritdoc}

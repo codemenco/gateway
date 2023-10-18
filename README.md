@@ -1,13 +1,18 @@
 <div dir="rtl">
 
+
+```
+متاسفانه این پکیج دیگر پشتیبانی نمی شود
+```
+
 پکیج اتصال به تمامی IPG ها و  بانک های ایرانی.
 
 این پکیج با ورژن های
-(۴ تا ۱۰)
+(  ۴ و ۵ و ۶  )
  لاراول سازگار می باشد
 
 
-پشتیبانی از درگاه های زیر:
+پشتیبانی تنها از درگاهای زیر می باشد:
  1. MELLAT
  2. SADAD (MELLI)
  3. SAMAN
@@ -20,7 +25,6 @@
  10. Irankish (**جدید** -  برای فراخوانی از 'irankish' استفاده نمایید)
  11. Jibit (درگاه جیبیت)
  12. Idpay
- 13. Comming Soon
 ----------
 
 
@@ -136,7 +140,6 @@ try {
    $gateway = \Gateway::make('mellat');
 
    $gateway->setCallback(url('/bank/response')); // You can also change the callback
-   $gateway->setCustom(USERID, ORDERID); // You can add some additional datas
    $gateway->price(1000)
            // setShipmentPrice(10) // optional - just for paypal
            // setProductName("My Product") // optional - just for paypal

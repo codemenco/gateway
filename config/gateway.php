@@ -105,6 +105,9 @@ return [
         'iv' => '',
         'callback-url'   => '/',
     ],
+    'vendar'  => [
+        'api_key' => env( 'VENDAR_API_KEY' , '' )
+    ] ,
 
     //--------------------------------
     // Paypal gateway
