@@ -2,11 +2,11 @@
 
 namespace Codemenco\Gateway\Jibit;
 
+use Codemenco\Gateway\Jibit\JibitException;
+use Codemenco\Gateway\Jibit\PhpFileCache;
 use DateTime;
 use Illuminate\Support\Facades\Request;
 use Codemenco\Gateway\Enum;
-use Codemenco\Gateway\Jibit\JibitException;
-use Codemenco\Gateway\Jibit\PhpFileCache;
 use Codemenco\Gateway\PortAbstract;
 use Codemenco\Gateway\PortInterface;
 
